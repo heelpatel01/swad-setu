@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend in node js for creating a restaurant management app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "restaurants",
+    "table",
+    "swad",
+    "dine",
+    "cafe"
+  ],
+  "author": "dipendra heel",
+  "license": "ISC"
+}
