@@ -4,7 +4,7 @@
   "description": "backend in node js for creating a restaurant management app",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "ts-nodemon server/index.ts"
   },
   "keywords": [
     "restaurants",
@@ -14,5 +14,12 @@
     "cafe"
   ],
   "author": "dipendra heel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0"
+  }
 }
